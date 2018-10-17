@@ -30,8 +30,8 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>com.itheima.heima_ssm</groupId>
-            <artifactId>heima_ssm_service</artifactId>
+            <groupId>cn.xiaochui</groupId>
+            <artifactId>xiaochui_ssm_service</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
