@@ -22,4 +22,11 @@ public class OrdersServiceImpl implements OrdersService {
         PageHelper.startPage(page,size);
         return dao.findAll();
     }
+
+    @Override
+    public Orders findById(String id) {
+        return dao.findById(id);
+    }
+
+
 }
